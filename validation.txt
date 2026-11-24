@@ -1,0 +1,38 @@
+01_llm
+Hello!
+
+02_tools
+['R1', 'R4']
+{'matches': 2, 'source_ids': ['R1', 'R4']}
+
+03_loop
+See R1 and R4.
+
+04_memory
+Prefer concise reports
+See R1/R4.
+
+05_planning
+['Search solar', 'Report findings']
+See R1/R4.
+
+06_guardrails
+{'error': 'Denied by user'}
+True
+
+07_testing
+{'error': 'Denied by user'}
+True
+
+07_testing tests
+........                                                                 [100%]
+8 passed in 0.07s
+
+08_capstone
+remember {"note": "Prefer concise reports"}
+Allow? [y/N] save {"report": "Solar: R1 and R4"}
+Allow? [y/N] Demo complete. Check tool approvals and report file.
+
+08_capstone tests
+........                                                                 [100%]
+8 passed in 0.05s
